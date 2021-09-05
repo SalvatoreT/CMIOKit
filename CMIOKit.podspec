@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.author = "Tamas Lustyik"
   spec.platform = :osx, "10.13"
   spec.swift_version = "4.2"
-  spec.source = { :git => "https://github.com/lvsti/CMIOKit.git" }
+  spec.source = { :git => "https://github.com/SalvatoreT/CMIOKit", :tag => "1.0.0" }
   spec.source_files = "Sources/**/*.{h,swift}"
 end
